@@ -15,9 +15,9 @@
     "Module",
     "Pattern",
     "Optimizer"
-  ],  
+  ],
   "bin": {
-    "amp-optimizer": "./bin/amp-optimizer"
+    "amp-optimizer": "./bin.js"
   },
   "author": "Michael Labriola <labriola@digitalprimates.net>",
   "license": "MIT",

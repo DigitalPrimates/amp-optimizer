@@ -16,7 +16,7 @@ const printHelp = !( source && namespace );
 
 if ( ( printHelp ) ) {
     //print the command line help and get out of here
-    console.log('amp-optimizer --source=[path_to_src] --namespace=[module_namespace] [--output=path_to_output]')
+    console.log('amp-optimizer --source=[path_to_src] --namespace=[module_namespace] [--output=path_to_output]');
     process.exit();
 }
 

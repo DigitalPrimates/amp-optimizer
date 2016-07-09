@@ -1,0 +1,34 @@
+{
+  "name": "amp-optimizer",
+  "version": "0.1.0",
+  "description": "Optimizer to create a single JavaScript file from files using the Augmented Module Pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DigitalPrimates/amp-optimizer.git"
+  },
+  "keywords": [
+    "Augmented",
+    "Module",
+    "Pattern",
+    "Optimizer"
+  ],  
+  "bin": {
+    "amp-optimizer": "./bin/amp-optimizer"
+  },
+  "author": "Michael Labriola <labriola@digitalprimates.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DigitalPrimates/amp-optimizer/issues"
+  },
+  "homepage": "https://github.com/DigitalPrimates/amp-optimizer#readme",
+  "dependencies": {
+    "acorn": "^3.2.0",
+    "lodash": "^4.13.1",
+    "minimist": "^1.2.0",
+    "promise": "^7.1.1"
+  }
+}

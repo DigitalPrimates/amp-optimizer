@@ -176,7 +176,7 @@ function buildList(files) {
 }
 
 function writeOutputFile(organizedFileList, outputFile) {
-    fs.writeFile(outputFile, _.map(organizedFileList, 'contents'), function (err) {
+    fs.writeFile(outputFile, _.map(organizedFileList, 'contents').join('\n'), function (err) {
         if (err) {
             return console.log(err);
         }
